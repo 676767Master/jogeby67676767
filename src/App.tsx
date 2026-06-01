@@ -37,6 +37,7 @@ import {
 import { motion, AnimatePresence } from 'motion/react';
 import { ResumeData, DayItinerary, DayItineraryEvent, LocationDetail } from './types';
 import { LUXURY_PRESENTATION_HTML } from './presentationHtml';
+import { INITIAL_RESUME_DATA } from './initialData';
 
 // Luxury Mock Videos inspired directly by the video
 interface MockVideo {
@@ -89,8 +90,8 @@ const LUXURY_VIDEOS: MockVideo[] = [
 ];
 
 export default function App() {
-  const [data, setData] = useState<ResumeData | null>(null);
-  const [isLoading, setIsLoading] = useState<boolean>(true);
+  const [data, setData] = useState<ResumeData>(INITIAL_RESUME_DATA);
+  const [isLoading, setIsLoading] = useState<boolean>(false);
   const [isSaving, setIsSaving] = useState<boolean>(false);
   const [mode] = useState<'preview' | 'edit'>('preview');
   

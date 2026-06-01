@@ -1,0 +1,216 @@
+import { ResumeData } from './types';
+
+export const INITIAL_RESUME_DATA: ResumeData = {
+  profile: {
+    name: "黃亘誼",
+    englishName: "HUANG HSUAN YI",
+    department: "航運技術系",
+    tags: [
+      "戰神賽特",
+      "八國聯軍",
+      "刊蹄",
+      "240",
+      "小丑制霸",
+      "省道特快車"
+    ],
+    email: "a111182118@nkust.edu.tw",
+    bio: "我是一個積極進取、認真負責的人，從小在溫暖善良且重視教育的家庭中成長。父母教導我誠實待人、踏實做事，也讓我明白努力與堅持的重要性。這樣的成長背景，使我養成良好的生活習慣與自律能力。",
+    avatarUrl: "/src/assets/images/uploaded_avatar_1780251299651_646545456454.PNG",
+    uploadedVideoUrl: "/src/assets/videos/uploaded_video_1780251968488_faaa7a09-5510-4206-b49c-a0d84c2ca8c2.mp4",
+    model3dPhotos: [
+      "/src/assets/images/uploaded_3d_photo_1780252727301_202267.png",
+      "/src/assets/images/uploaded_3d_photo_1780252740337_AI___.png",
+      "/src/assets/images/uploaded_3d_photo_1780252748515_Gemini_Generated_Image_7u8kh37u8kh37u8k__1_.png"
+    ],
+    journeyLinks: {
+      "vid2": "https://studio.tripo3d.ai/workspace/generate/sport-motorcycle-drifting-with-dark-background-and-white-smoke-plume-752b7cad-55d9-419a-a845-b9d04ad96de6"
+    },
+    buttonLink1: "",
+    buttonLabel1: "",
+    buttonLink2: "",
+    buttonLabel2: "",
+    bottomButtonLink: "https://studio.tripo3d.ai/workspace/generate/752b7cad-55d9-419a-a845-b9d04ad96de6",
+    bottomButtonLabel: "第二張",
+    model3dLinks: {
+      "/src/assets/images/uploaded_3d_photo_1780252740337_AI___.png": "https://studio.tripo3d.ai/workspace/generate/752b7cad-55d9-419a-a845-b9d04ad96de6"
+    }
+  },
+  experiences: [
+    {
+      id: "exp1",
+      yearMonth: "2025/5",
+      title: "郵輪實習課程",
+      country: "日本",
+      city: "東京",
+      details: [
+        "淺草寺",
+        "阿美橫町",
+        "東京鐵塔"
+      ]
+    }
+  ],
+  itineraries: [
+    {
+      dayNumber: 1,
+      badge: "【起點】",
+      destination: "羅馬 - 跨越國界的優雅",
+      imageUrl: "/src/assets/images/luxury_dinner_yacht_png_1780248502037.png",
+      events: [
+        {
+          id: "d1-e1",
+          time: "09:00",
+          category: "行衣",
+          title: "穿 100% Vicuna 針織衫，襯顯旅裝",
+          details: [
+            "穿戴緊配 Phantom 抱尊等shirt襯衫",
+            "支付 $8M USD 至 IMI 航空公司"
+          ]
+        },
+        {
+          id: "d1-e2",
+          time: "10:30",
+          category: "食他",
+          title: "機上奢華午餐：伊比 Almas 魚子醬 (白金罐)",
+          details: [
+            "與女友或同行部下同行，極致「高空奢華喇叭」計點記錄",
+            "魚子醬由私人管家冷庫妥善保管"
+          ]
+        },
+        {
+          id: "d1-e3",
+          time: "15:00",
+          category: "住行",
+          title: "抵達羅馬，特專乘車前往下榻 Hotel de la Ville",
+          details: [
+            "辦理 280萬海景商務套房 簽記登記（附珍珠彩石飾品）",
+            "羅馬警方「安全物資」已寄出"
+          ]
+        },
+        {
+          id: "d1-e4",
+          time: "20:30",
+          category: "食他",
+          title: "晚宴：梵蒂岡私密包場，把握特色偏向列車",
+          details: [
+            "男女攜上黃金麵包草，在教堂周邊靜享微密驚喜",
+            "備用燃料艙在自科園區地底落差處妥善定位"
+          ]
+        }
+      ]
+    },
+    {
+      dayNumber: 2,
+      badge: "【亮點】",
+      destination: "埃及 - 法老的神秘與壯麗",
+      imageUrl: "/src/assets/images/luxury_desert_resort_png_1780248527853.png",
+      events: [
+        {
+          id: "d2-e1",
+          time: "08:00",
+          category: "行衣",
+          title: "加比尼昂特高精棉夾克旅行穿搭",
+          details: [
+            "珠絲往還，於專機上精享頂級特色早餐",
+            "男女在機上測試深空共振，檢查全身體虛與血清與健康狀況",
+            "收集極端者源於日前收發器傳輸資料"
+          ]
+        },
+        {
+          id: "d2-e2",
+          time: "13:00",
+          category: "住他",
+          title: "升級高級金卡套房別墅，尊享奢華沐浴儀式",
+          details: [
+            "午後專車前往男女專屬「埃及博物館」，並進行特定深室專商特探",
+            "另製建置「考古特房」專項支出登記"
+          ]
+        },
+        {
+          id: "d2-e3",
+          time: "19:30",
+          category: "食他",
+          title: "晚宴：沙基灌海鮭 (Vaqueta) 糖粒壓香饗宴",
+          details: [
+            "沙漠星空下進行「爆櫃餐訓」，並佩戴百嘉百入牌",
+            "諾馬海島由首斯園英萊詳近市區觀光"
+          ]
+        }
+      ]
+    },
+    {
+      dayNumber: 3,
+      badge: "【尋秘】",
+      destination: "傑拉什 - 地中海的古老遺產",
+      imageUrl: "/src/assets/images/mediterranean_hypercar_png_1780248548935.png",
+      events: [
+        {
+          id: "d3-e1",
+          time: "10:00",
+          category: "行他",
+          title: "將活私人機出航，午餐：「人體盛」白瓣卡骨盛裝尊享",
+          details: [
+            "穿 24K 金絲運動鞋：演釋極致文化深根脈",
+            "戴閃煌金鑽合土塗身粉配飾品牌展現風範"
+          ]
+        },
+        {
+          id: "d3-e2",
+          time: "16:00",
+          category: "行衣",
+          title: "Bugatti 奢鑽狂飆 - 領男女沿湖畔馳騁",
+          details: [
+            "貨配 8 個卡珠深防護目鏡，享受浪波交舞觀瑩視覺",
+            "巡遊隆域「深溝」茂綠與行動契飾精雕細琢"
+          ]
+        },
+        {
+          id: "d3-e3",
+          time: "21:00",
+          category: "食物",
+          title: "晚餐：野生存文色虎蝦烤椰斑江雪酥",
+          details: [
+            "戴尋砂細能大券，男女在燈火下演出「拉鋸強珠」趣味交流",
+            "食材由專屬野生動物協定渠道採購"
+          ]
+        }
+      ]
+    },
+    {
+      dayNumber: 4,
+      badge: "【巔峰】",
+      destination: "迪拜 - 執子的奢闊朝香",
+      imageUrl: "/src/assets/images/luxury_private_jet_png_1780248573802.png",
+      events: [
+        {
+          id: "d4-e1",
+          time: "09:00",
+          category: "乘伙",
+          title: "陸上純機械手工針精織家室服穿戴與悠閒",
+          details: [
+            "配備頂級手工服飾，奉寄高配行囊",
+            "採集氣體飾牌附微型由台特下紐紐塔，做精準科學安全監管"
+          ]
+        },
+        {
+          id: "d4-e2",
+          time: "13:00",
+          category: "魚付",
+          title: "私人專屬黃金遊艇，進行「最後一次流體拉特極」",
+          details: [
+            "英文簽署 $16M USD 人日抗抗口紙，完成國際保證支付"
+          ]
+        },
+        {
+          id: "d4-e3",
+          time: "21:00",
+          category: "住",
+          title: "抵達密雅，奢華星上 100 平份亞西麗主店下榻度假",
+          details: [
+            "脫下當天衣襯，香抹酒精煞芳薰，極致舒緩旅途疲勞",
+            "行程圓滿結束，帶走全套精適精珠裝飾留念"
+          ]
+        }
+      ]
+    }
+  ]
+};
