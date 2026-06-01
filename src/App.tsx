@@ -1243,6 +1243,7 @@ export default function App() {
                       <img 
                         src={day.imageUrl} 
                         alt={day.destination}
+                        loading="lazy"
                         className="absolute inset-0 w-full h-full object-cover opacity-75 group-hover:scale-105 transition-all duration-700"
                         referrerPolicy="no-referrer"
                         onError={(e) => {
@@ -1612,6 +1613,7 @@ export default function App() {
                       <video 
                         src={data.profile.uploadedVideoUrl} 
                         controls 
+                        preload="metadata"
                         className="w-full h-full object-contain"
                       />
                     </div>
@@ -1701,6 +1703,7 @@ export default function App() {
                               <img 
                                 src={vid.placeholderUrl} 
                                 alt={vid.title} 
+                                loading="lazy"
                                 className="w-full h-full object-cover transition-transform duration-500 hover:scale-[1.05]"
                                 referrerPolicy="no-referrer"
                               />
@@ -1712,6 +1715,7 @@ export default function App() {
                             <img 
                               src={vid.placeholderUrl} 
                               alt={vid.title} 
+                              loading="lazy"
                               className="w-full h-full object-cover transition-transform duration-500"
                               referrerPolicy="no-referrer"
                             />
@@ -1848,6 +1852,7 @@ export default function App() {
                                 <img 
                                   src={photoUrl} 
                                   alt={`3D Model ${idx + 1}`} 
+                                  loading="lazy"
                                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                                   referrerPolicy="no-referrer"
                                 />
@@ -1859,6 +1864,7 @@ export default function App() {
                               <img 
                                 src={photoUrl} 
                                 alt={`3D Model ${idx + 1}`} 
+                                loading="lazy"
                                 className="w-full h-full object-cover"
                                 referrerPolicy="no-referrer"
                               />
