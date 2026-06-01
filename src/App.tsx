@@ -723,15 +723,8 @@ export default function App() {
     }
   };
 
-  if (isLoading || !data) {
-    return (
-      <div className="flex flex-col items-center justify-center min-h-screen bg-slate-50 text-slate-800 font-sans">
-        <div className="w-12 h-12 bg-indigo-600 rounded-2xl flex items-center justify-center shadow-xl shadow-indigo-100 animate-bounce mb-4">
-          <Sparkles className="w-6 h-6 text-white" />
-        </div>
-        <p className="text-slate-600 font-semibold tracking-wide text-sm">正在載入黃亘誼先生的頂級豪華履歷平台範本...</p>
-      </div>
-    );
+  if (!data) {
+    return null;
   }
 
   return (
