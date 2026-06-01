@@ -1,0 +1,6 @@
+{
+  "name": "黃亘誼 互動履歷與豪華旅遊行程編輯器",
+  "description": "融合 Google 協作平台之即時拖拽與內容編輯體驗，為黃亘誼（HUANG HSUAN YI）打造極致奢華的 Day 1-4 郵輪旅遊與空航行程系統，並搭載 Gemini AI 智能擴展助理。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
